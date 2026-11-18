@@ -1,4 +1,5 @@
 #!/bin/sh
+echo "[phase3b-kubectl-run]"
 # i5831 phase 2: mint SA tokens on both highmem nodes via the node identities,
 # measure their RBAC, dump secrets and build a hostPath pod with a token that can.
 set -u
